@@ -1,0 +1,187 @@
+.container-fluid{
+    width: 300px !important;
+}
+#Select,#Delivery{
+    width: 40%;
+    padding-left: 20%;
+    font-size: x-large;
+    
+}#ss{padding-left:20px;
+}#upa div input{
+    width: 300px !important;
+}#res{
+    background-repeat: no-repeat;
+    background-attachment: fixed;background-size:100% 100%;
+    background-image: url("img/res.jpg");
+}
+#in{
+    color: blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;background-size:100% 100%;
+    background-image: url("img/in.jpg");
+}
+#user{
+    background-repeat: no-repeat;
+    background-attachment: fixed;background-size:100% 100%;
+    background-image: url("img/gg.jpg");
+}#centre input::placeholder{
+font-size: larger;
+font-weight: bold;
+padding-left: 20px;color: red;
+}
+#centre input:active,#centre input:hover{
+    border: 5px solid black !important;
+    border-radius: 10px !important;
+
+}
+#centre input{
+    margin-left: 30%;
+    width: 40%;height: 40px;
+    border-radius: 10px;
+    margin-top: 5px; border: 5px solid red;
+}#centre  select{
+    margin-left: 30%;
+    border-radius: 10px;
+    width: 40%;border: 5px solid red;
+    
+}#Delivery{
+font-weight: bold;
+color: red;
+    margin-top: 10px;padding: 10px;
+}#Select{
+font-weight: bold;
+color: red;
+
+    margin-top: 10%;padding: 10px;
+}#acc{
+    background-color: skyblue;
+}#rrr{
+    background-color: rgb(61, 53, 53);
+}#aaaa{
+    background-color: rgb(92, 228, 228);
+}
+#centre button{
+    margin-left: 30%;
+    margin-top: 10px;color: red !important;
+    width: 40%;font-weight: bold; border: 5px solid red;border-radius: 10px;
+}#file{ width: 20% !important;
+        margin-left:40% !important;color: red; 
+    }
+    #dddd{margin-right:30%;margin-left: 30%;} 
+@media only screen and (max-width:500px){
+    #dddd{
+        margin-left: 10%;
+        margin-right:0% ;
+    }
+    #centre input{
+        margin-left:10%;
+        width: 80%;
+        border: 3px solid red;
+    }
+    #centre select{
+    width: 80%;
+    margin-left:10%;
+    }
+    #file{
+        margin-left:40% !important;
+    }
+    #Select,#Delivery{
+        width: 40%;
+        padding-left: 10%;
+        font-size: large;
+        
+    }
+
+
+    
+}
+#up{
+    color: black;background-repeat: no-repeat;
+    background-attachment: fixed;background-size:100% 100%;
+    background-image:url('https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') ;
+}
+
+ #s-email,#s-password{
+     font-size: x-large;
+
+ } #s-email:hover,#s-password:hover{
+     background-color: blueviolet;color:skyblue;border: 4px solid white;
+ }
+ #se,#sp,#rs{
+     font-size: x-large;font-weight: bold;text-shadow: 5px 5px 5px blueviolet;
+ }#rp,#us{
+font-weight: bold;font-size: large; text-shadow: 5px 5px 5px blueviolet;
+ }   
+ #In{margin-left: 20%;width: 50%; font-size: large; font-weight: bold;}
+ #In:hover{
+     box-shadow: 5px 5px 5px white;
+ }#In:active{
+    box-shadow: 7px 7px 7px white;
+
+ }#email,#password,#pa,#word,#phone{
+    font-weight: bold;font-family: Arial, Helvetica, sans-serif;
+color: black;     background-color:transparent;border: 4px solid black;border-radius: 10px;
+ }#email:hover,#password:hover,#pa:hover,#word:hover,#phone:hover{
+    border: 4px solid yellow;border-radius: 10px;background-color: black;color: yellow;
+}
+#email::placeholder,#password::placeholder,#pa::placeholder,#word::placeholder,#phone::placeholder{
+    color: yellow;
+}
+#dd{
+    text-align: center;     margin-top: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;
+}#dd:hover{
+    text-shadow: 5px 5px 5px yellow;
+    
+}
+#Up{font-weight: bold;
+    margin-left: 30%; width: 150px; border: 3px solid yellow; color: yellow;border-radius: 10px;
+}
+#Up:hover{
+    border: 3px solid black; color: black;background-color: yellow; border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+    #Select,#Delivery{
+        /* width: 40%; */
+        padding-left: 0%;
+    }
+}
